@@ -1,0 +1,6 @@
+import { hc } from "hono/client";
+import type { AppType } from "../../../apps/backend/routes";
+
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8787";
+
+export const client = hc<AppType>(BASE_URL);

@@ -1,8 +1,7 @@
-import { Hono } from "hono"
-import dashboardRoutes from "./dashboard"
+import { Hono } from "hono";
+import dashboardRoutes from "./dashboard";
 
-const routes = new Hono()
+const routes = new Hono().route("", dashboardRoutes);
 
-routes.route("", dashboardRoutes)
-
-export default routes
+export type AppType = typeof routes;
+export default routes;
