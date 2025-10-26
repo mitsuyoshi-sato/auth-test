@@ -1,0 +1,271 @@
+[00:00:01.046] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.114] Server  LOG      ✓ Ready in 937ms
+[00:00:02.727] Browser LOG     {"isLoading":false,"user":null}
+[00:00:02.727] Browser LOG     {"isLoading":false,"user":null}
+[00:00:03.062] Server  LOG     {}
+[00:00:03.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.595] Browser LOG     {"isLoading":true}
+[00:00:03.595] Browser LOG     {"isLoading":true}
+[00:00:03.595] Browser LOG     {"isLoading":false,"user":null}
+[00:00:03.595] Browser LOG     {"isLoading":false,"user":null}
+[00:00:06.593] Server  LOG     {}
+[00:00:06.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.980] Browser LOG     {"isLoading":true}
+[00:00:06.980] Browser LOG     {"isLoading":true}
+[00:00:06.980] Browser LOG     {"isLoading":false,"user":null}
+[00:00:06.980] Browser LOG     {"isLoading":false,"user":null}
+[00:00:12.192] Browser LOG     {"isLoading":false,"user":null}
+[00:00:12.193] Browser LOG     {"isLoading":false,"user":null}
+[00:00:12.193] Browser LOG     {"isLoading":false,"user":null}
+[00:00:12.193] Browser LOG     {"isLoading":false,"user":null}
+[00:00:18.123] Browser LOG     {"isLoading":false,"user":null}
+[00:00:18.124] Browser LOG     {"isLoading":false,"user":null}
+[00:00:18.124] Browser LOG     {"isLoading":false,"user":null}
+[00:00:18.124] Browser LOG     {"isLoading":false,"user":null}
+[00:01:06.675] Browser LOG     {"isLoading":false,"user":null}
+[00:01:06.675] Browser LOG     {"isLoading":false,"user":null}
+[00:01:06.675] Browser LOG     {"isLoading":false,"user":null}
+[00:01:06.675] Browser LOG     {"isLoading":false,"user":null}
+[00:01:11.813] Browser LOG     {"isLoading":false,"user":null}
+[00:01:11.813] Browser LOG     {"isLoading":false,"user":null}
+[00:01:11.813] Browser LOG     {"isLoading":false,"user":null}
+[00:01:11.813] Browser LOG     {"isLoading":false,"user":null}
+[00:01:18.123] Browser LOG     {"isLoading":false,"user":null}
+[00:01:18.123] Browser LOG     {"isLoading":false,"user":null}
+[00:01:18.123] Browser LOG     {"isLoading":false,"user":null}
+[00:01:18.123] Browser LOG     {"isLoading":false,"user":null}
+[00:01:23.123] Browser LOG     {"isLoading":false,"user":null}
+[00:01:23.123] Browser LOG     {"isLoading":false,"user":null}
+[00:01:23.123] Browser LOG     {"isLoading":false,"user":null}
+[00:01:23.123] Browser LOG     {"isLoading":false,"user":null}
+[00:02:13.834] Server  ERROR    ⨯ TypeError: Cannot destructure property 'user' of '(intermediate value)' as it is null.
+[00:02:14.124] Browser ERROR   uncaughtError: TypeError: Cannot destructure property 'user' of '(intermediate value)' as it is null.
+[00:02:46.403] Server  ERROR    ⨯ TypeError: Cannot destructure property 'user' of '(intermediate value)' as it is null.
+[00:02:46.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:46.682] Browser ERROR   uncaughtError: TypeError: Cannot destructure property 'user' of '(intermediate value)' as it is null.
+[00:02:50.663] Server  ERROR    ⨯ TypeError: Cannot destructure property 'user' of '(intermediate value)' as it is null.
+[00:02:50.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:50.849] Browser ERROR   uncaughtError: TypeError: Cannot destructure property 'user' of '(intermediate value)' as it is null.
+[00:03:15.482] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:13.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:39.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:43.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:00.025] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:52.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:09.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:20.699] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:29.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:51.754] Server  LOG     {}
+[00:12:52.356] Server  LOG     {}
+[00:12:52.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:55.325] Server  LOG     {}
+[00:12:55.765] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:12.710] Server  LOG     {}
+[00:13:28.268] Server  ERROR    ⨯ ./app/page.tsx
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+[00:13:28.304] Browser ERROR   ./app/page.tsx
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+[00:13:29.303] Server  ERROR    ⨯ ./app/page.tsx
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+[00:13:29.526] Browser ERROR   ./app/page.tsx
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+[00:13:30.200] Server  ERROR    ⨯ ./app/page.tsx
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+[00:13:30.301] Browser ERROR   ./app/page.tsx
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.tsx
+[00:13:30.700] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ../../node_modules/.pnpm/next@16.0.0_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[00:13:30.801] Browser ERROR   ./app/page.tsx
+Error:   × Expected '</', got ':'
+    ╭─[/Users/mitsuyoshi/Desktop/auth-test/apps/frontend/app/page.tsx:20:1]
+ 17 │       </div>
+ 18 │       <div>name: {user?.name ?? "null"}</div>
+ 19 │       <div>email: {user?.email ?? "null"}</div>
+ 20 │       <div>email_verified: {user?.email_verified ?? <span className="text-red-500">false</span> : <span className="text-green-500">true</span>}</div>
+    ·                                                                                                 ─
+ 21 │       </div>
+ 22 │   );
+ 23 │ }
+    ╰────
+
+Caused by:
+    Syntax Error
+[00:13:32.565] Server  LOG      ○ Compiling /_error ...
+[00:13:34.782] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:35.056] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:35.261] Server  LOG     {}
+[00:13:35.261] Server  LOG     {}
+[00:13:35.268] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:35.283] Server  LOG     {}
+[00:13:35.301] Server  LOG     {}
+[00:13:35.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:52.389] Server  LOG     {}
+[00:13:52.391] Server  ERROR    ⨯ ReferenceError: cn is not defined
+[00:13:52.518] Browser ERROR   uncaughtError: ReferenceError: cn is not defined
+[00:14:05.099] Server  LOG     {}
+[00:14:05.100] Server  ERROR    ⨯ ReferenceError: cn is not defined
+[00:14:05.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:05.618] Browser ERROR   uncaughtError: ReferenceError: cn is not defined
+[00:14:05.701] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:05.741] Server  LOG     {}
+[00:14:05.742] Server  ERROR    ⨯ ReferenceError: cn is not defined
+[00:14:11.574] Server  LOG     {}
+[00:14:11.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:32.140] Server  LOG     {}
+[00:14:33.004] Server  LOG     {}
+[00:14:33.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:47.347] Server  LOG     {}
+[00:14:48.108] Server  LOG     {}
+[00:14:48.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:55.424] Server  LOG     {}
+[00:15:18.591] Server  LOG     {}
+[00:15:22.699] Server  LOG     {}
+[00:15:23.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:45.722] Server  LOG     {}
+[00:15:46.514] Server  LOG     {}
+[00:15:47.025] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:57.516] Server  LOG     {}
+[00:16:37.371] Server  LOG     {}
+[00:16:46.851] Server  LOG     {}
+[00:16:53.102] Server  LOG     {}
+[00:16:58.257] Server  LOG     {}
+[00:16:59.300] Server  LOG     {}
+[00:16:59.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:06.179] Server  LOG     {}
+[00:17:07.156] Server  LOG     {}
+[00:17:08.189] Server  LOG     {}
+[00:17:08.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:40.772] Server  LOG     {}
+[00:17:41.218] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:33.847] Server  LOG     {}
+[00:18:51.888] Server  LOG     {}
+[00:18:59.071] Server  LOG     {}
+[00:19:05.054] Server  LOG     {}
+[00:20:43.757] Server  LOG     {}
+[00:20:51.139] Server  LOG     {}
+[00:20:56.495] Server  LOG     {}
+[00:23:14.169] Server  LOG     {}
+[00:23:23.611] Server  LOG     {}
+[00:23:23.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:58.977] Server  LOG     {}
+[00:24:59.426] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:05.734] Server  LOG     {}
+[00:25:05.978] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:24.705] Server  LOG     {}
+[00:25:28.489] Server  LOG     {}
+[00:25:28.967] Server  LOG     {}
+[00:25:31.497] Server  LOG     {}
+[00:25:37.186] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:25:37.423] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:41.579] Server  LOG     {}
+[00:25:41.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
