@@ -9,13 +9,16 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+apps/*/node_modules/
 
 # testing
 /coverage
 
 # next.js
-/.next/
-/out/
+.next/
+out/
+apps/*/next/
+apps/*/.next/
 
 # production
 /build
