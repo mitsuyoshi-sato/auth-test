@@ -1,7 +1,8 @@
+import 'dotenv/config'
 import { Context, Hono } from 'hono';
 import { cors } from "hono/cors"
 import { env } from './config/env';
-import { serve } from '@hono/node-server/.';
+import { serve } from '@hono/node-server';
 import routes from './routes';
 
 

@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter frontend dev",
+    "dev": "concurrently \"pnpm --filter backend dev\" \"pnpm --filter frontend dev\"",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "pnpm --filter backend dev",
     "build": "pnpm --recursive build",
     "lint": "pnpm --recursive lint",
     "lint:fix": "pnpm --recursive lint:fix",
@@ -12,6 +14,7 @@
     "type-check": "pnpm --recursive type-check"
   },
   "devDependencies": {
+    "concurrently": "^9.1.0",
     "prettier": "^3.6.2"
   }
 }
