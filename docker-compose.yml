@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15.10
+    container_name: auth-test-postgres
+    environment:
+      POSTGRES_USER: auth-test
+      POSTGRES_PASSWORD: testpassword
+      POSTGRES_DB: auth-test
+    ports:
+      - "52306:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
