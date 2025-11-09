@@ -19,3 +19,5 @@ export const auth0 = new Auth0Client({
     audience: process.env.AUTH0_AUDIENCE,
   },
 });
+
+export const getToken = async () => auth0.getAccessToken();
